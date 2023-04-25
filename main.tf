@@ -14,7 +14,7 @@ provider "aws" {
 
 resource "aws_instance" "angular_server" {
   
-ami = "ami-"
+ami = "ami-0c55b159cbfafe10"
 instance_type = "t2.micro"
 
 

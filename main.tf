@@ -2,15 +2,14 @@ terraform {
     required_providers {
         aws = {
             source = "hashicorp/aws"
+        
         }
     }
 
     required_version = "1.3.7"
 }
 
-provider "aws" {
-    region =  "eu-south-1"
-}
+provider "aws" {}
 
 resource "aws_instance" "angular_server" {
   
